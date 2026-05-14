@@ -1,8 +1,22 @@
 # High School Sensor Challenge
 
+## Team Information
+
+- Team name: ______________________________
+- Team members: ___________________________
+- Date: ______________________________
+
 ## Sensor Value Recording
 
 | Test | Range sensor reading | Optical sensor reading | Notes |
+| --- | --- | --- | --- |
+| 1 |  |  |  |
+| 2 |  |  |  |
+| 3 |  |  |  |
+
+## Threshold Test Runs
+
+| Run | Range threshold | Optical threshold | Outcome |
 | --- | --- | --- | --- |
 | 1 |  |  |  |
 | 2 |  |  |  |
@@ -28,6 +42,8 @@
 - Problem seen: _________________________________________________
 - What we checked: ______________________________________________
 - What changed the result: _______________________________________
+- Which value was most useful: ___________________________________
+- Next test to run: ______________________________________________
 
 ## Reflection Questions
 
@@ -35,3 +51,9 @@
 - How did the threshold affect the robot's behavior?
 - What was the most useful debugging step?
 - How does this compare to a real automation system?
+
+## Instructor Check
+
+- [ ] Team explained thresholds clearly
+- [ ] Team used data to justify code changes
+- [ ] Team met rescue mission code requirements

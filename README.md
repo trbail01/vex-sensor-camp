@@ -51,6 +51,8 @@ VEX Sensor Camp is a 2-hour robotics experience built around short missions. Stu
 4. Open [activities/README.md](activities/README.md) and run the missions in order.
 5. Print the handouts from [handouts/README.md](handouts/README.md) if you want paper copies.
 
+Use whichever VEX software your program already uses (for example, VEXcode IQ or VEXcode V5). The pseudocode in this repo is intentionally generic so you can adapt it to blocks or text.
+
 ## Middle School and High School Paths
 
 The middle school and high school versions use the same mission structure, but the high school version goes deeper. Middle school focuses on basic sensor ideas, simple if/then logic, and trial and error. High school uses the same missions but adds thresholds, loops, variables, sensor value debugging, and more autonomous decision-making.

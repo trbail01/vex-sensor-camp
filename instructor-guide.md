@@ -4,7 +4,7 @@
 
 - Pre-built VEX robots with claws
 - Pressure, optical, and range sensors installed
-- Laptops with the required VEX software installed
+- Laptops with your required VEX software installed (for example, VEXcode IQ or VEXcode V5)
 - Batteries, chargers, and spares
 - Tape for floor lines and finish zones
 - Small objects for pickup tasks
@@ -13,7 +13,7 @@
 ## Pre-Camp Setup Checklist
 
 - Charge all robots and controllers
-- Open the programming software on each laptop
+- Open the VEX programming software on each laptop
 - Test that every robot connects correctly
 - Mark a driving lane, pickup zone, and finish line area
 - Prepare a demo program for each mission
@@ -34,6 +34,7 @@
 - Students can connect to the robot
 - Live sensor values can be viewed or tested
 - Code can be downloaded and run without extra setup
+- Teams know whether they are coding in blocks or text for this session
 
 ## Room Setup
 
