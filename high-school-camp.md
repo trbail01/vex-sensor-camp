@@ -11,14 +11,14 @@
 
 | Time | Activity |
 | --- | --- |
-| 0:00-0:10 | Welcome, robot tour, and sensor overview |
-| 0:10-0:20 | Live sensor values and threshold mini lesson |
-| 0:20-0:35 | Mission 1: Meet the Robot's Senses |
-| 0:35-0:55 | Mission 2: Pressure Sensor Start |
-| 0:55-1:15 | Mission 3: Don't Hit the Wall |
-| 1:15-1:35 | Mission 4: Claw Grabber Challenge |
-| 1:35-1:50 | Mission 5: Find the Finish Line |
-| 1:50-2:00 | Mission 6: Robot Rescue Mission and debrief |
+| 1:00-1:10 PM | Welcome, robot tour, and sensor overview |
+| 1:10-1:20 PM | Live sensor values and threshold mini lesson |
+| 1:20-1:35 PM | Mission 1: Meet the Robot's Senses |
+| 1:35-1:55 PM | Mission 2: Pressure Sensor Start |
+| 1:55-2:15 PM | Mission 3: Don't Hit the Wall |
+| 2:15-2:35 PM | Mission 4: Claw Grabber Challenge |
+| 2:35-2:50 PM | Mission 5: Find the Finish Line |
+| 2:50-3:00 PM | Mission 6: Robot Rescue Mission and debrief |
 
 ## Mission Sequence
 

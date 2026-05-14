@@ -52,6 +52,7 @@
 
 ## Timing Advice
 
+- Daily order: High school camp from 1:00-3:00 PM, then middle school camp from 3:00-5:00 PM
 - Teach in short bursts of 5-10 minutes
 - Move back to testing quickly
 - Do not let teams stay stuck on a broken idea for too long

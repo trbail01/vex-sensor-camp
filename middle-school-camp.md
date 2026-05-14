@@ -11,14 +11,14 @@
 
 | Time | Activity |
 | --- | --- |
-| 0:00-0:10 | Welcome, safety, and robot tour |
-| 0:10-0:20 | Input, logic, output mini lesson |
-| 0:20-0:35 | Mission 1: Meet the Robot's Senses |
-| 0:35-0:55 | Mission 2: Pressure Sensor Start |
-| 0:55-1:15 | Mission 3: Don't Hit the Wall |
-| 1:15-1:35 | Mission 4: Claw Grabber Challenge |
-| 1:35-1:50 | Mission 5: Find the Finish Line |
-| 1:50-2:00 | Mission 6: Robot Rescue Mission and reflection |
+| 3:00-3:10 PM | Welcome, safety, and robot tour |
+| 3:10-3:20 PM | Input, logic, output mini lesson |
+| 3:20-3:35 PM | Mission 1: Meet the Robot's Senses |
+| 3:35-3:55 PM | Mission 2: Pressure Sensor Start |
+| 3:55-4:15 PM | Mission 3: Don't Hit the Wall |
+| 4:15-4:35 PM | Mission 4: Claw Grabber Challenge |
+| 4:35-4:50 PM | Mission 5: Find the Finish Line |
+| 4:50-5:00 PM | Mission 6: Robot Rescue Mission and reflection |
 
 ## Mission Sequence
 
