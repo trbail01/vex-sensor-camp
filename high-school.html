@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>High School Camp | VEX Sensor Camp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Shared site navigation for the GitHub Pages site. -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">VEX Sensor Camp</a>
+      <div class="nav-links">
+        <a href="middle-school.html">Middle School</a>
+        <a href="high-school.html" aria-current="page">High School</a>
+        <a href="instructor-guide.html">Instructor Guide</a>
+        <a href="resources.html">Resources</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-intro">
+      <p class="eyebrow">Deeper programming challenges</p>
+      <h1>High School Camp</h1>
+      <p class="lead">
+        This version of camp digs into sensor values, thresholds, loops, variables, and debugging. Students still use
+        the same pre-built VEX claw robots, but the programming decisions are more open-ended and analytical.
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>2-hour schedule</h2>
+      <table class="info-table">
+        <thead>
+          <tr><th>Time</th><th>Activity</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>0:00-0:15</td><td>Welcome, robot capabilities, and sensor system overview</td></tr>
+          <tr><td>0:15-0:30</td><td>Read live sensor values and discuss thresholds</td></tr>
+          <tr><td>0:30-0:50</td><td>Mission 1: Pressure Sensor Mode Toggle or Start/Stop</td></tr>
+          <tr><td>0:50-1:10</td><td>Mission 2: Range Sensor Claw Grabber with threshold logic</td></tr>
+          <tr><td>1:10-1:30</td><td>Mission 3: Optical Sensor Surface Detector using values</td></tr>
+          <tr><td>1:30-1:50</td><td>Final Challenge: Smart Claw Autonomous Mission</td></tr>
+          <tr><td>1:50-2:00</td><td>Reflection, debugging discussion, and real-world tie-ins</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="grid-two">
+      <article class="panel">
+        <h2>Camp goals</h2>
+        <ul>
+          <li>Interpret live sensor values instead of only using simple on/off triggers.</li>
+          <li>Use thresholds, loops, variables, and if/else logic.</li>
+          <li>Debug behavior by comparing sensor readings to robot actions.</li>
+          <li>Build a short autonomous routine that reacts to the environment.</li>
+        </ul>
+      </article>
+      <article class="panel accent-panel">
+        <h2>Sensor values and thresholds</h2>
+        <p>
+          Sensors often return numbers. A <strong>threshold</strong> is a value your program uses to decide when to act.
+          Example: if the distance sensor reads less than 100 mm, the object is close enough to grab.
+        </p>
+      </article>
+    </section>
+
+    <section class="card-grid">
+      <article class="card">
+        <h2>Mission 1: Pressure Sensor Mode Toggle or Start/Stop</h2>
+        <p>Use the back pressure sensor to change robot behavior. One press might start the robot, while another press could stop it or switch modes.</p>
+      </article>
+      <article class="card">
+        <h2>Mission 2: Range Sensor Claw Grabber</h2>
+        <p>Read distance values continuously. When the value crosses your chosen threshold, stop driving and close the claw around the object.</p>
+      </article>
+      <article class="card">
+        <h2>Mission 3: Optical Sensor Surface Detector</h2>
+        <p>Use brightness or color data from the optical sensor to detect a dark zone, tape line, or target surface before the robot changes behavior.</p>
+      </article>
+      <article class="card">
+        <h2>Final Challenge: Smart Claw Autonomous Mission</h2>
+        <p>Design a short autonomous program that starts correctly, reacts to the environment, picks up an item, and finishes in a target zone.</p>
+      </article>
+    </section>
+
+    <section class="grid-two">
+      <article class="panel">
+        <h2>Challenge requirements</h2>
+        <ul>
+          <li>Use at least <strong>two sensors</strong>.</li>
+          <li>Include <strong>one loop</strong>.</li>
+          <li>Include <strong>one if/else</strong> decision.</li>
+          <li>Use <strong>one variable</strong> to store a value or state.</li>
+        </ul>
+      </article>
+      <article class="panel">
+        <h2>Optional IoT connection</h2>
+        <p>
+          If time allows, compare robot logic to a Home Assistant automation. For example, a Zigbee motion sensor can act
+          like an input, an automation rule is the logic, and a smart bulb or switch is the output.
+        </p>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Reflection questions</h2>
+      <ul>
+        <li>How did you choose your sensor thresholds?</li>
+        <li>What data helped you debug the robot when it missed an object or stopped too soon?</li>
+        <li>Why is it useful to store values in variables during autonomous behavior?</li>
+        <li>What real-world systems depend on sensors, data, and automated decisions?</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
