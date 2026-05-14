@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VEX Sensor Camp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Shared site navigation for the GitHub Pages site. -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">VEX Sensor Camp</a>
+      <div class="nav-links">
+        <a href="middle-school.html">Middle School</a>
+        <a href="high-school.html">High School</a>
+        <a href="instructor-guide.html">Instructor Guide</a>
+        <a href="resources.html">Resources</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <!-- Homepage overview content. -->
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Summer robotics learning</p>
+        <h1>VEX Sensor Camp</h1>
+        <p class="tagline">Teaching robots to sense, decide, and act.</p>
+        <p class="lead">
+          This camp gives students a hands-on introduction to how robots respond to the world around them.
+          Using pre-built VEX robots with claws, campers explore how sensor input becomes smart robot behavior.
+        </p>
+        <div class="button-row">
+          <a class="button" href="middle-school.html">Explore Middle School Camp</a>
+          <a class="button button-secondary" href="high-school.html">Explore High School Camp</a>
+        </div>
+      </div>
+      <aside class="callout">
+        <h2>Robot setup</h2>
+        <ul class="compact-list">
+          <li>Driving base already built and ready to test</li>
+          <li>Claw for object pickup challenges</li>
+          <li>Pressure sensor on the back</li>
+          <li>Optical sensor on the bottom</li>
+          <li>Distance sensor on the front near the claw</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="grid-two">
+      <article class="panel">
+        <h2>What this camp is about</h2>
+        <p>
+          Students learn that sensors are how a robot notices change. A pressure sensor can act like a button,
+          a distance sensor can tell when an object is close, and an optical sensor can help a robot detect
+          lines, colors, or changes in surface brightness.
+        </p>
+        <p>
+          Both camp versions fit into a 2-hour session. The middle school path is more guided and block-based.
+          The high school path goes further with thresholds, variables, loops, debugging, and autonomous choices.
+        </p>
+      </article>
+      <article class="panel">
+        <h2>What is a sensor?</h2>
+        <p>
+          A sensor is a tool that helps a robot gather information from the world. That information becomes
+          <strong>input</strong>. The robot uses code to make a decision, then performs an <strong>output</strong>
+          such as driving, stopping, or closing the claw.
+        </p>
+        <div class="logic-flow">
+          <div>
+            <span>Input</span>
+            <p>Sensor reads a press, distance, or surface change</p>
+          </div>
+          <div>
+            <span>Logic</span>
+            <p>Code checks rules like if/then, thresholds, or loops</p>
+          </div>
+          <div>
+            <span>Output</span>
+            <p>Robot moves, stops, turns, or grabs an object</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <h2 class="section-title">Choose a section</h2>
+      <div class="card-grid">
+        <a class="card-link" href="middle-school.html">
+          <article class="card">
+            <h3>Middle School Camp</h3>
+            <p>Friendly, guided missions with simple sensor concepts and if/then logic.</p>
+          </article>
+        </a>
+        <a class="card-link" href="high-school.html">
+          <article class="card">
+            <h3>High School Camp</h3>
+            <p>More advanced programming with thresholds, loops, variables, and debugging.</p>
+          </article>
+        </a>
+        <a class="card-link" href="instructor-guide.html">
+          <article class="card">
+            <h3>Instructor Guide</h3>
+            <p>Materials, setup notes, delivery tips, troubleshooting, and timing guidance.</p>
+          </article>
+        </a>
+        <a class="card-link" href="resources.html">
+          <article class="card">
+            <h3>Resources</h3>
+            <p>Vocabulary, logic examples, pseudocode, and real-world sensor connections.</p>
+          </article>
+        </a>
+      </div>
+    </section>
+
+    <section class="grid-two">
+      <article class="panel">
+        <h2>Why claws and sensors work well together</h2>
+        <p>
+          The claw gives students a visible job for the robot to do: notice something, move toward it, and grab it.
+          That makes each sensor feel useful instead of abstract. Students quickly see how sensing leads to action.
+        </p>
+      </article>
+      <article class="panel accent-panel">
+        <h2>Optional smart home connection</h2>
+        <p>
+          Campers can also see that sensor logic is not only for robots. With Raspberry Pi, Home Assistant, Aqara
+          Zigbee motion sensors, door sensors, smart bulbs, and smart switches, you can show how a home can sense
+          movement or an open door and trigger lights or other automations.
+        </p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
